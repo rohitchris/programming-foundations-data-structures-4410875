@@ -7,3 +7,8 @@ user_preferences = {
     "volume_level": 80,
     "date_format": "MM/DD/YYYY"
 }
+
+user_preferences["language"] = "French"
+
+for key, value in user_preferences.items():
+  print(f"{key} | {value}")
